@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { connect } from "react-redux";
-import phonebookActions from "../redux/phonebook/phonebook-actions";
+import phonebookActions from "../../redux/phonebook/phonebook-actions";
 //Styles:
 import "./ContactForm.scss";
 import { Button, Form, Col, Row } from "react-bootstrap";

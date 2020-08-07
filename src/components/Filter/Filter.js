@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import phonebookActions from "../redux/phonebook/phonebook-actions";
+import phonebookActions from "../../redux/phonebook/phonebook-actions";
 //Styles:
 import "./Filter.scss";
 import { InputGroup, FormControl } from "react-bootstrap";
